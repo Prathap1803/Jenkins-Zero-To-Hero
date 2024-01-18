@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: spring-boot-app
+        app: example
     spec:
       containers:
-      - name: spring-boot-app
+      - name: example
         image: abhishekf5/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
