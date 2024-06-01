@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: prathap926/java-demo
+        image: prathap926/java-demo:18
         ports:
         - containerPort: 8080
